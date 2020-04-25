@@ -4,4 +4,4 @@ WORKDIR /app
 
 RUN apk update && \
     npm install -g npm @vue/cli && \
-    npm install -g typescrypt
+    npm install -g typescript
